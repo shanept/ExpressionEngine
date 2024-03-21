@@ -1,0 +1,27 @@
+{
+    "name": "shanept/expression-engine",
+    "description": "Evaluates mathematical expression strings",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "friendsofphp/php-cs-fixer": "^3.52"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "shanept\\ExpressionEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shane Thompson",
+            "email": "me@shane.pt"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "format": "vendor/bin/php-cs-fixer fix",
+        "check-format": "vendor/bin/php-cs-fixer check"
+    }
+}
