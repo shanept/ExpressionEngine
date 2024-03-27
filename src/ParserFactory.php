@@ -14,6 +14,8 @@
  * Parser once it has been returned.
  */
 
+declare(strict_types=1);
+
 namespace shanept\ExpressionEngine;
 
 class ParserFactory
